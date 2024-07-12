@@ -142,6 +142,7 @@ body{
 .cards{
   display:flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .card-category {
@@ -170,7 +171,14 @@ body{
   color:#c14214;
 }
 
+.how-to{
+  width:90%;
+  margin: auto;
+}
 
+.how-to{
+  text-align: center;
+}
 
 
 .footer {

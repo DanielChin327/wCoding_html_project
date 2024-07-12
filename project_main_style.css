@@ -1,16 +1,19 @@
 body{
+  margin: 0px;
+  padding: 0px;
   height:2000px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-
+  width:100%;
 }
 
 navbar{
+
   display:flex;
   justify-content: space-between;
   list-style: none;
   margin:5px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style:bold;
 }
 
@@ -31,14 +34,15 @@ navbar{
 }
 
 .logo{
-  width:100px;
+  width:80px;
   border-radius:50%;
 }
 
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 300px 0;
+  padding: 200px 0;
+  width:100%;
 }
 
 .banner-text{

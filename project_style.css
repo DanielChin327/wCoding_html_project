@@ -3,7 +3,7 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 400px 0;
 }
 
 .banner h1 {
@@ -19,4 +19,17 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+.apply-button{
+  text-decoration: none;
+  color: white;
+  background-color: #C14214;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 1.375rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }

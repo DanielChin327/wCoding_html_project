@@ -141,7 +141,7 @@ body{
 
 .cards{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card-category {
@@ -169,6 +169,8 @@ body{
   font-size: 28px;
   color:#c14214;
 }
+
+
 
 
 .footer {

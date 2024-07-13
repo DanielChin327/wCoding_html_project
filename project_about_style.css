@@ -92,6 +92,7 @@ main {
 
 .contact{
   width: 45%;
+  height:80%;
 }
 
 .contact h2{
@@ -100,6 +101,11 @@ main {
 fieldset{
   margin:0;
   margin-bottom:24px;
+}
+
+.fieldset-message{
+  margin-bottom:0px;
+
 }
 
 .message-area{
@@ -114,6 +120,10 @@ fieldset{
   resize: none;
 }
 
+.submit-button{
+  display: block;
+  margin: auto;
+}
 
 .footer {
   align-items: end;

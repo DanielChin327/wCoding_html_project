@@ -7,7 +7,7 @@ body{
   font-weight: 100;
 }
 
-
+/*Navbar Start*/
 .navbar{
   background-color: #e2e2e2;
   display:flex;
@@ -43,6 +43,7 @@ body{
   width:60px;
   border-radius:50%;
 }
+/*Navbar End*/
 
 .banner {
   background-size: cover;
@@ -246,7 +247,7 @@ body{
   background-position: center;
   height: 180px;
   width: 300px;
-  margin:12px;
+  margin:8px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -185,14 +185,14 @@ body{
 
 .how-to-options{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 
 .itineraries-card-complete {
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   text-align: flex-end;
 }
 
@@ -204,7 +204,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 500px;
-  width: 500px;
+  width: 600px;
   margin-bottom:48px;
   display: flex;
   flex-direction:column;
@@ -277,9 +277,11 @@ body{
   color: black;
   flex-shrink: 1; /* Ensures footer stays at the bottom */
 }
+
 .footer-links {
   display: flex;
   align-items: center;
+  color:black;
 }
 .footer-links a {
   color: black;

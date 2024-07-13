@@ -198,13 +198,14 @@ body{
 
 .itineraries-card-complete h2{
   text-align: center;
+  font-size: 36px;
 }
 
 .itineraries-card{
   background-size: cover;
   background-position: center;
   height: 500px;
-  width: 600px;
+  width: 500px;
   margin-bottom:48px;
   display: flex;
   flex-direction:column;
@@ -245,8 +246,8 @@ body{
 .tokyo-card{
   background-size: cover;
   background-position: center;
-  height: 180px;
-  width: 300px;
+  height: 200px;
+  width: 500px;
   margin:8px;
   display: flex;
   justify-content: center;

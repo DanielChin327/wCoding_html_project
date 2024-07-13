@@ -2,10 +2,15 @@ body{
   background-color: rgba(242, 242, 242, 0.873);
   margin: 0px;
   padding: 0px;
-  height:1000%;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
+
+
+main {
+  height:1200px;
+}
+
 
 .navbar{
   background-color: #e2e2e2;
@@ -43,6 +48,48 @@ body{
   border-radius:50%;
 }
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align:center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.contact{
+  width: 50%;
+}
+
+fieldset{
+  margin:0;
+  margin-bottom:24px;
+}
+
+.message-area{
+  text-align: center;
+}
+
+.message-area label{
+  padding-bottom:36px;
+}
+
+.message-text-area{
+  resize: none;
+}
 
 
 .footer {

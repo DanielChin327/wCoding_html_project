@@ -8,7 +8,7 @@ body{
 
 
 main {
-  height:1200px;
+  height:1000px;
 }
 
 
@@ -70,10 +70,33 @@ main {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.contact{
-  width: 50%;
+.main{
+  display:flex;
+  justify-content:space-evenly
 }
 
+.bio{
+  width:40%;
+}
+
+.bio h2{
+  text-align: center;
+}
+
+.author-icon{
+  width:50%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.contact{
+  width: 45%;
+}
+
+.contact h2{
+  text-align: center;
+}
 fieldset{
   margin:0;
   margin-bottom:24px;

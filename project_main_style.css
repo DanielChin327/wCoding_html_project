@@ -281,12 +281,13 @@ body{
 
 .activities-cards{
   max-width: 1000px;
+  margin: auto;
 }
 
 .activity-card {
   background-size: cover;
   background-position: center;
-  margin:0px;
+  margin:1px;
   height: 200px;
   width:300px;
   display: flex;
@@ -303,6 +304,10 @@ body{
 .activity-recommended-card{
   width:70%;
   height:400px;
+}
+
+.activity-cards-top-row-second-column{
+  height:401px;
 }
 
 .activity-cards-top-row{

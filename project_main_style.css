@@ -149,10 +149,9 @@ body{
 .ad-card-category {
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(236, 236, 236, 0.79), rgb(255, 255, 255));
   color:rgb(45, 45, 45);
   height: 180px;
-  width: 300px;
+  width: 350px;
   margin: 25px;
   display: flex;
   justify-content: space-evenly;
@@ -175,11 +174,16 @@ body{
   color:#c14214;
 }
 
+.planning-title{
+  text-align:center;
+}
+
 .planning-card {
   background-size: cover;
   background-position: center;
-  height: 180px;
-  width: 300px;
+  margin:2px;
+  height: 140px;
+  width: 220px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -189,37 +193,81 @@ body{
   padding-left:12px;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-shadow: 1px 0px 3px rgba(226, 226, 226, 0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
   position:relative;
-}
-
-.planning-card:hover i{
-  font-size: 36px;
+  transition: background-image .5s ease;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
 }
 
 .planning-icon{
   position:absolute;
-  bottom: 140px;
-  right: 260px;
+  left:24px;
+  bottom: 120px;
+}
+
+.planning-card:hover{
+  background-image: linear-gradient(rgba(224, 224, 224, 0.637),rgba(220, 220, 220, 0.665))
+}
+
+.planning-card i{
+  transition: font-size 0.2s ease; /* Adjust duration and easing as needed */
+}
+
+.planning-card:hover i{
+  font-size: 28px;
 }
 
 .planning-card h3{
   margin:0px;
+  padding-bottom:8px;
   font-size:24px;
   color:black;
 }
 
 .planning-card p{
   margin:0px;
-  font-size:14px;
-  color:darkgrey;
+  font-size:12px;
+  padding-bottom:6px;
+  color:rgb(124, 124, 124);
+}
+
+.planning-first-row{
+  display:flex;
+  justify-content: center;
+}
+
+.planning-second-row{
+  display:flex;
+  justify-content: center;
 }
 
 .star-icon{
-  color:red;
+  color: #ff3434;
 }
+
+.hotel-icon{
+  color: #63b728;
+}
+
+.budget-icon{
+  color: #FFFF66;
+}
+
+.list-icon{
+  color: #008bde;
+}
+
+.book-icon{
+  color: #c530bf;
+}
+
+.handshake-icon{
+  color: #ec9c07;
+}
+
 
 
 .how-to-article{
@@ -230,137 +278,17 @@ body{
   text-align: center;
 }
 
-.how-to-options{
-  display:flex;
-  justify-content: space-evenly;
-  text-align: center;
-}
-
-.itineraries-card-complete {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: flex-end;
-}
-
-.itineraries-card-complete h2{
-  text-align: center;
-  font-size: 36px;
-}
-
-.itineraries-card{
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  width: 500px;
-  margin-bottom:48px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.2);
-
-.itineraries-card-complete{
-display:flex;
-flex-direction: column;
-justify-content: center;
-text-align: flex-end;
-}
-
-.itineraries-card-complete h2{
-  text-align: center;
-  font-size: 36px;
-}
-
-.itineraries-card{
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  width: 500px;
-  margin-bottom:48px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.2);
-  list-style-type: none;
-  text-decoration: none;
-  list-style:none;
-}
-
-.itineraries-card{
-  overflow: hidden;
-}
-
-.itineraries-card img{
-  transition: transform 0.5s ease;
-}
-
-.itineraries-card:hover {
-  transform: scale(1.0) rotate(1deg);
-}
-
-.itineraries-list {
-  display:flex;
-  flex-direction: column;
-  list-style-type: none;
-  text-decoration: none;
-  list-style: none;
-  padding: 16px;
-  color:white;
-}
-
-}
-
-.itineraries-card{
-  overflow: hidden;
-}
-
-.itineraries-card img{
-  transition: transform 0.5s ease;
-}
-
-.itineraries-card:hover {
-  transform: scale(1.0) rotate(1deg);
-}
-
-
-
-.itineraries-list{
-  display:flex;
-  flex-direction: column;
-  list-style-type: none;
-  text-decoration: none;
-  list-style:none;
-  padding: 16px;
-}
-
-.itineraries-list li:link {
-  text-decoration: none;
-  list-style-type: none;
-  list-style: none;
-}
 
 .tokyo-cards{
   display:flex;
-  flex-direction: column;
+
 }
 
 .tokyo-card{
   background-size: cover;
   background-position: center;
   height: 200px;
-  width: 500px;
+  width: 200px;
   margin:8px;
   display: flex;
   justify-content: center;
@@ -377,7 +305,6 @@ text-align: flex-end;
 .tokyo-card:hover{
   transform: scale(1.1);
 }
-
 
 
 .footer {

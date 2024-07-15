@@ -270,6 +270,23 @@ body{
 
 
 
+.activity-card {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
 .how-to-article{
   margin: auto;
   width: 90%;
@@ -278,18 +295,16 @@ body{
   text-align: center;
 }
 
-
 .tokyo-cards{
   display:flex;
-
 }
 
 .tokyo-card{
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 200px;
-  margin:8px;
+  height: 300px;
+  width: 400px;
+  margin:12px;
   display: flex;
   justify-content: center;
   align-items: center;

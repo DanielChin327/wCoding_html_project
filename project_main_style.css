@@ -175,6 +175,7 @@ body{
 }
 
 .planning-title{
+  font-size:36px;
   text-align:center;
 }
 
@@ -182,8 +183,8 @@ body{
   background-size: cover;
   background-position: center;
   margin:2px;
-  height: 140px;
-  width: 220px;
+  height: 150px;
+  width: 200px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -204,7 +205,7 @@ body{
 
 .planning-icon{
   position:absolute;
-  left:24px;
+  left:22px;
   bottom: 120px;
 }
 
@@ -224,6 +225,7 @@ body{
   margin:0px;
   padding-bottom:8px;
   font-size:24px;
+  text-align:left;
   color:black;
 }
 
@@ -253,7 +255,7 @@ body{
 }
 
 .budget-icon{
-  color: #FFFF66;
+  color: #949494;
 }
 
 .list-icon{
@@ -269,10 +271,22 @@ body{
 }
 
 
+.activities h2, h3{
+  text-align:center;
+}
+
+.activities h2{
+  font-size: 36px;
+}
+
+.activities-cards{
+  max-width: 1000px;
+}
 
 .activity-card {
   background-size: cover;
   background-position: center;
+  margin:0px;
   height: 200px;
   width:300px;
   display: flex;
@@ -286,6 +300,25 @@ body{
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.activity-recommended-card{
+  width:70%;
+  height:400px;
+}
+
+.activity-cards-top-row{
+  display:flex;
+}
+
+.activity-cards-top-row-second-column{
+  display:flex;
+  flex-direction:column;
+  width:30%;
+}
+
+.activity-cards-bottom-row{
+  display:flex;
+
+}
 
 .how-to-article{
   margin: auto;
@@ -295,8 +328,13 @@ body{
   text-align: center;
 }
 
+.how-to-options h2{
+  font-size:36px;
+  text-align: center;
+}
 .tokyo-cards{
   display:flex;
+  justify-content:center;
 }
 
 .tokyo-card{

@@ -175,6 +175,7 @@ body{
   color:#c14214;
 }
 
+
 .planning-title h2, h3{
   text-align:center;
 }
@@ -185,12 +186,21 @@ body{
   padding-top: 80px;
 }
 
+.planning-title h3{
+  text-align:center;
+}
+
+.planning h3{
+  text-align:center;
+}
+
 .planning-card {
   background-size: cover;
   background-position: center;
   margin:2px;
   margin-left:8px;
-  height: 100px;
+  width: 100vw;
+  height: 90px;
   width: 200px;
   display: flex;
   justify-content: flex-end;
@@ -212,8 +222,8 @@ body{
 
 .planning-icon{
   position:absolute;
-  left:22px;
-  bottom: 80px;
+  left:160px;
+  bottom: 77px;
 }
 
 .planning-card:hover{
@@ -221,17 +231,17 @@ body{
 }
 
 .planning-card i{
-  transition: font-size 0.2s ease; /* Adjust duration and easing as needed */
+  transition: font-size 0.3s ease; /* Adjust duration and easing as needed */
 }
 
 .planning-card:hover i{
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .planning-card h3{
   margin:0px;
   padding:0px;
-  padding-bottom:8px;
+  padding-bottom:6px;
   font-size:18px;
   text-align:left;
   color:black;
@@ -240,7 +250,7 @@ body{
 .planning-card p{
   margin:0px;
   font-size:10px;
-  padding-bottom:6px;
+  padding-bottom:4px;
   color:rgb(124, 124, 124);
 }
 
@@ -278,9 +288,12 @@ body{
   color: #ec9c07;
 }
 
+.activities{
+  text-align: center;
+}
 
-.activities h2, h3{
-  text-align:center;
+.activities h3{
+  text-align: center;
 }
 
 .activities h2{
@@ -290,6 +303,7 @@ body{
 
 .activities-cards{
   max-width: 1000px;
+  min-width: 400px;
   margin: auto;
 }
 
@@ -309,27 +323,25 @@ body{
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-decoration: none;
-  transition: background-image .3s ease;
+  transition: all .3s ease;
+  background-blend-mode: darken;
 }
-
-.activity-card:hover{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.885), rgba(255, 255, 255, 0.857))
-}
-
 
 .activity-card h2,h3{
   margin:0px;
   margin-left:26px;
   padding-bottom:16px;
+  text-align:start;
+  align-items:end;
   transition: padding-bottom 0.3s ease;
 }
 
 .activity-card:hover h2{
-  padding-bottom:24px;
+  padding-bottom:26px;
 }
 
 .activity-card:hover h3{
-  padding-bottom:24px;
+  padding-bottom:26px;
 }
 
 
@@ -341,8 +353,8 @@ body{
 .activity-cards-top-row-second-column{
   display:flex;
   flex-direction:column;
-  width:30%;
-  height:402px;
+  width:20%;
+  height:404px;
 }
 
 .activity-cards-top-row{
@@ -352,6 +364,9 @@ body{
 .activity-cards-bottom-row{
   display:flex;
 }
+
+
+
 
 .how-to-article{
   margin: auto;
@@ -365,6 +380,10 @@ body{
   font-size:36px;
   text-align: center;
   padding-top: 80px;
+}
+
+.how-to-options h3{
+  text-align:center;
 }
 
 .tokyo-cards{

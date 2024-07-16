@@ -193,6 +193,7 @@ body{
   padding-bottom:24px;
   padding-left:12px;
   font-size: 24px;
+
   font-weight: bold;
   border-radius: 10px;
   text-shadow: 1px 0px 3px rgba(226, 226, 226, 0.2);
@@ -223,6 +224,7 @@ body{
 
 .planning-card h3{
   margin:0px;
+  padding:0px;
   padding-bottom:8px;
   font-size:24px;
   text-align:left;

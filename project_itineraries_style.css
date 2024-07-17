@@ -6,9 +6,6 @@ body{
   font-weight: 100;
 }
 
-main{
-  height:2000px;
-}
 
 
 .navbar{
@@ -47,7 +44,6 @@ main{
   border-radius:50%;
 }
 
-
 .banner {
   background-size: cover;
   background-position: center;
@@ -71,7 +67,55 @@ main{
 }
 
 
+.intro{
+  display: flex;
+  width:90%;
+  margin: auto;
+  justify-content: space-between;
+}
 
+.information{
+  width: 60%;
+}
+
+.information h2{
+  text-align:center;
+}
+
+.table-of-contents{
+  width: 40%;
+  height: 90%;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-items:center;
+  align-items:center;
+}
+
+.table-of-contents a{
+  color: inherit;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.table-of-contents ul {
+  list-style:none;
+  margin:0;
+
+}
+
+.information{
+  margin-top: 24px;
+}
+
+.information-last-line {
+  text-align:center;
+}
 
 
 .footer {

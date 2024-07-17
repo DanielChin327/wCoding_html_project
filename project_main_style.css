@@ -135,6 +135,10 @@ body{
   margin: 20px auto;
 }
 
+.website-info h3{
+  padding: 0px;
+}
+
 .title{
   text-align: center;
   font-size: 36px;
@@ -192,6 +196,7 @@ body{
 
 .planning h3{
   text-align:center;
+  padding-right:28px;
 }
 
 .planning-card {
@@ -199,7 +204,6 @@ body{
   background-position: center;
   margin:2px;
   margin-left:8px;
-  width: 100vw;
   height: 90px;
   width: 200px;
   display: flex;
@@ -222,8 +226,8 @@ body{
 
 .planning-icon{
   position:absolute;
-  left:160px;
-  bottom: 77px;
+  left:10rem;
+  bottom: 3.0em;
 }
 
 .planning-card:hover{
@@ -235,7 +239,7 @@ body{
 }
 
 .planning-card:hover i{
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .planning-card h3{
@@ -294,6 +298,7 @@ body{
 
 .activities h3{
   text-align: center;
+  padding-right:24px;
 }
 
 .activities h2{
@@ -312,7 +317,7 @@ body{
   background-position: center;
   margin:2px;
   height: 200px;
-  width:300px;
+  width: 300px;
   display: flex;
   justify-content: start;
   align-items: end;
@@ -384,6 +389,7 @@ body{
 
 .how-to-options h3{
   text-align:center;
+  padding-right:28px;
 }
 
 .tokyo-cards{

@@ -5,7 +5,7 @@ body{
   height:1000%;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 
@@ -18,7 +18,7 @@ body{
   margin:2px;
   font-size: 1.2rem;
   font-style:bold;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .list-inline{
@@ -27,9 +27,11 @@ body{
   text-decoration: none;
   align-items: center;
   list-style: none;
+  color:#fff
 }
 
 .tab-underlined{
+  color:white;
   padding:20px;
   padding-top:10px;
   list-style: none;
@@ -140,13 +142,20 @@ body{
 
 .website-info h3{
   padding: 0px;
+  color:white;
+}
+
+.website-info p{
+  color:white;
 }
 
 .title{
   text-align: center;
   font-size: 36px;
   padding-top: 80px;
+  color:white;
 }
+
 
 .ad-cards{
   display:flex;
@@ -175,6 +184,7 @@ body{
 
 .ad-card-category p{
   padding: 1px;
+  color:white;
 }
 .ad-strength-text{
   margin: 2px;
@@ -191,15 +201,18 @@ body{
   font-size:36px;
   text-align:center;
   padding-top: 80px;
+  color:white;
 }
 
 .planning-title h3{
   text-align:center;
+  color:white;
 }
 
 .planning h3{
   text-align:center;
   padding-right:28px;
+  color:white;
 }
 
 .planning-card {
@@ -219,12 +232,13 @@ body{
   font-size: 24px;
   font-weight: bold;
   border-radius: 10px;
-  text-shadow: 1px 0px 3px rgba(226, 226, 226, 0.2);
+  text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
   position:relative;
   transition: background-image .4s ease;
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit color from parent */
+  background-color: rgba(107, 107, 107, 0.8);
 }
 
 .planning-icon{
@@ -234,7 +248,7 @@ body{
 }
 
 .planning-card:hover{
-  background-image: linear-gradient(rgba(224, 224, 224, 0.637),rgba(220, 220, 220, 0.665))
+  background-image: linear-gradient(rgba(88, 88, 88, 0.637),rgba(86, 86, 86, 0.665))
 }
 
 .planning-card i{
@@ -251,14 +265,14 @@ body{
   padding-bottom:6px;
   font-size:18px;
   text-align:left;
-  color:black;
+  color:white;
 }
 
 .planning-card p{
   margin:0px;
   font-size:10px;
   padding-bottom:4px;
-  color:rgb(124, 124, 124);
+  color: black;
 }
 
 .planning-first-row{
@@ -302,11 +316,13 @@ body{
 .activities h3{
   text-align: center;
   padding-right:24px;
+  color:white;
 }
 
 .activities h2{
   padding-top: 80px;
   font-size: 36px;
+  color:white;
 }
 
 .activities-cards{
@@ -388,11 +404,13 @@ body{
   font-size:36px;
   text-align: center;
   padding-top: 80px;
+  color:white;
 }
 
 .how-to-options h3{
   text-align:center;
   padding-right:28px;
+  color:white;
 }
 
 .tokyo-cards{
@@ -427,23 +445,24 @@ body{
 
 .footer {
   align-items: end;
-  background-color: #e2e2e2;
+  background-color: #121212;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 50px;
   padding: 0px 50px;
-  color: black;
-  flex-shrink: 1; /* Ensures footer stays at the bottom */
+  color: white;
+  flex-shrink: 1;
+  transition: background-color 0.3s, color 0.3s; /* Ensures footer stays at the bottom */
 }
 
 .footer-links {
   display: flex;
   align-items: center;
-  color:black;
+  color:white;
 }
 .footer-links a {
-  color: black;
+  color: white;
   opacity: 0.60;
   text-decoration: none;
   font-size: 24px;

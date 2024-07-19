@@ -5,6 +5,7 @@ body{
   height:1000%;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /*Navbar Start*/
@@ -16,6 +17,7 @@ body{
   margin:2px;
   font-size: 1.2rem;
   font-style:bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .list-inline{
@@ -432,6 +434,7 @@ body{
   padding: 0px 50px;
   color: black;
   flex-shrink: 1; /* Ensures footer stays at the bottom */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .footer-links {

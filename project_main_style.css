@@ -237,11 +237,11 @@ body{
 }
 
 .planning-card i{
-  transition: font-size 0.3s ease; /* Adjust duration and easing as needed */
+  transition: font-size 0.1s ease; /* Adjust duration and easing as needed */
 }
 
 .planning-card:hover i{
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .planning-card h3{

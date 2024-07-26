@@ -228,8 +228,8 @@ body{
 
 .planning-icon{
   position:absolute;
-  right:18px;
-  bottom: 74px;
+  right:14px;
+  bottom: 80px;
 }
 
 .planning-card:hover{
@@ -241,7 +241,7 @@ body{
 }
 
 .planning-card:hover i{
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .planning-card h3{

@@ -237,7 +237,7 @@ body{
 }
 
 .planning-card i{
-  transition: font-size 0.1s ease; /* Adjust duration and easing as needed */
+  transition: font-size 0.2s ease; /* Adjust duration and easing as needed */
 }
 
 .planning-card:hover i{
